@@ -30,7 +30,8 @@ Note: No server setup is required as it’s a static website.
 - Check the **Food** section for local cuisine details.
 - Use the **AskBot** page to interact with the chatbot for queries.
 
-## Screenshots
+## Screenshots![output_10](https://github.com/user-attachments/assets/30e880ad-cabe-4f34-a833-f370ffeb42b9)
+
 ![Home Page](screenshots/home.png)
 ![Destinations](screenshots/destinations.png)
 ![Chatbot](screenshots/chatbot.png)
@@ -47,9 +48,6 @@ Note: No server setup is required as it’s a static website.
 
 ## Contributing
 Feel free to fork the repository and submit pull requests for improvements. For major changes, please open an issue to discuss.
-
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 - Bootstrap 5 for responsive design.
