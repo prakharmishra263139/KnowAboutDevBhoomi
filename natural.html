@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Religious Places</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+      /* General Styles */
+      body {
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      /* Navbar Styles */
+      .navbar {
+        background: linear-gradient(135deg, #4e54c8, #8f94fb);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .navbar-brand {
+        font-size: 24px;
+        font-weight: bold;
+        color: white !important;
+      }
+
+      .nav-link {
+        color: white !important;
+        font-size: 16px;
+        transition: color 0.3s ease;
+      }
+
+      .nav-link:hover {
+        color: #ffdd57 !important;
+      }
+
+      /* Section Styles */
+      section {
+        padding: 20px;
+      }
+
+      .title {
+        font-size: 36px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #4e54c8;
+      }
+
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        justify-content: center;
+      }
+
+      .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .first {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+
+      .image-card {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: transform 0.3s ease;
+        width: 100%;
+        max-width: 300px;
+        height: 350px; /* Fixed height for all cards */
+        display: flex;
+        flex-direction: column;
+      }
+
+      .image-card:hover {
+        transform: scale(1.05);
+      }
+
+      .image-card img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .image-card h3 {
+        text-align: center;
+        margin: 10px 0;
+        flex-grow: 1; /* Ensure the title takes up remaining space */
+      }
+
+      .map-button {
+        display: block;
+        text-align: center;
+        background: #4e54c8;
+        color: white;
+        padding: 10px;
+        text-decoration: none;
+        border-radius: 5px;
+        margin: 10px;
+        transition: background 0.3s ease;
+      }
+
+      .map-button:hover {
+        background: #8f94fb;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">Know About Devbhoomi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="destination.html">Destinations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="food.html">Food</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bot.html">AskBot</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div class="title">Natural Destinations</div>
+      <div class="container">
+        <div class="image-container">
+          <!-- Religious Places with Names and Map Links -->
+          <div class="first">
+            <div class="image-card">
+              <img src="jim_corbett.jpg" alt="Natural Destinations">
+              <h3>Jim Corbett National Park</h3>
+              <a href="https://maps.app.goo.gl/6hziYQLECaUMCcpZA" target="_blank" class="map-button">View on Map</a>
+            </div>
+            <div class="image-card">
+              <img src="Kilbury Bird Sanctuary.jpg" alt="Natural Destinations">
+              <h3>Kilbury Bird Sanctuary</h3>
+              <a href="https://maps.app.goo.gl/UDBxe6c5vr1dWEqJ7" target="_blank" class="map-button">View on Map</a>
+            </div>
+            <div class="image-card">
+              <img src="chopta_uk.jpg" alt="Natural Destinations">
+              <h3>Chopta</h3>
+              <a href="https://maps.app.goo.gl/D9Wu5yMMsuR4iJ2DA" target="_blank" class="map-button">View on Map</a>
+            </div>
+
+            <div class="image-card">
+              <img src="nainital.jpg" alt="Natural Destinations">
+              <h3>Nainital</h3>
+              <a href="https://maps.app.goo.gl/pgEQkoSuvcAhuSNv6" target="_blank" class="map-button">View on Map</a>
+            </div>
+
+            <div class="image-card">
+              <img src="kempty_falls.jpg" alt="Natural Destinations">
+              <h3>Kempty Falls</h3>
+              <a href="https://maps.app.goo.gl/B8xtv3utFbF1VoPs9" target="_blank" class="map-button">View on Map</a>
+            </div>
+
+            <div class="image-card">
+              <img src="flower_valley.jpg" alt="Natural Destinations">
+              <h3>Flower Valley</h3>
+              <a href="https://maps.app.goo.gl/xHzBege9Ghy352Yz7" target="_blank" class="map-button">View on Map</a>
+            </div>
+
+            <div class="image-card">
+              <img src="hemkund_lake.jpg" alt="Natural Destinations">
+              <h3>Hemkund Lake</h3>
+              <a href="https://maps.app.goo.gl/j8rwV7jGXwQfjfC67" target="_blank" class="map-button">View on Map</a>
+            </div>
+            <div class="image-card">
+              <img src="pithoragarh.jpg" alt="Natural Destinations">
+              <h3>Pithoragarh</h3>
+              <a href="https://maps.app.goo.gl/VTEwJ3M8Kdd49j1y7" target="_blank" class="map-button">View on Map</a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <footer class="text-center py-3" style="background-color: #4e54c8; color: white;">
+      <p>&copy; 2025 Prakhar Mishra. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
