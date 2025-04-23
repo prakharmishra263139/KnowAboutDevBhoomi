@@ -30,15 +30,26 @@ Note: No server setup is required as it’s a static website.
 - Check the **Food** section for local cuisine details.
 - Use the **AskBot** page to interact with the chatbot for queries.
 
-## Screenshots![output_10](https://github.com/user-attachments/assets/30e880ad-cabe-4f34-a833-f370ffeb42b9)
+## Screenshots
 
-![Home Page](screenshots/home.png)
-![Destinations](screenshots/destinations.png)
-![Chatbot](screenshots/chatbot.png)
+![output_1](https://github.com/user-attachments/assets/4bca6b8d-59c1-4821-994a-e0910c31a091)
+![output_2](https://github.com/user-attachments/assets/0d59f49d-368f-470b-aa1a-a932dcb4a6bd)
+![output_3](https://github.com/user-attachments/assets/4f0034a1-beb4-4d31-ac22-4c523b7ea55d)
+![output_4](https://github.com/user-attachments/assets/7b7c7737-4516-4701-8d0f-bfbabba2015b)
+![output_5](https://github.com/user-attachments/assets/0ced6321-f307-4470-afa5-eea0d741aa62)
+![output_6](https://github.com/user-attachments/assets/58b65ef9-19b5-4919-b8fe-1d5639ee18ff)
+![output_7](https://github.com/user-attachments/assets/2f3f474b-203a-441e-80b6-115f95b30de0)
+![output_8](https://github.com/user-attachments/assets/5c32e7e9-18a3-4846-8c83-4736d6bcd2a9)
+![output_9](https://github.com/user-attachments/assets/9472f197-6adc-4bd0-9fc6-43958d3eb455)
+![output_10](https://github.com/user-attachments/assets/dd0bdb4f-5d6a-4119-9f96-57b9deb42fb8)
+![output_11](https://github.com/user-attachments/assets/2cd33c68-29ca-4a6a-99b5-bfcfe83875be)
+
+
 
 ## Project Structure
 - `home.html`: Main landing page with hero section and gallery.
 - `destination.html`: Lists natural and religious destinations.
+
 - `food.html`: Showcases Uttarakhand cuisine.
 - `bot.html`: Chatbot interface.
 - `natural.html` & `religious.html`: Detailed destination pages.
